@@ -84,3 +84,6 @@
 pub mod asm;
 #[cfg(feature = "nightly")]
 pub mod registers;
+
+#[cfg(feature = "nightly")]
+pub use tock_registers::interfaces::*;
